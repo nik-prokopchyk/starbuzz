@@ -11,25 +11,47 @@
 			border: 2px dotted black;
 			font-family: sans-serif;
 		}
-		img {
+		figure {	
 			height: 200px;
+			width: 200px;
+			overflow: hidden;
+		}
+		figure img {
+			min-width: 200px;
+			min-height: 200px;
+			object-fit: contain;
+		}
+		.sidebar {
+			float: right;
 		}
 	</style>
 </head>
 <body>
 	<h1>Напитки кафе Starbuzz</h1>
+	<div class="sidebar">
+		<a href="../lounge.html">start-page ССЫЛКА</a>
+		<a href="../about/directions.html">mission</a>
+	</div>
 	<h3>Домашняя смесь, $1,49</h3>
-	<img src="images/home.jpg">					
+	<figure>
+		<img src="../images/home.jpg">					
+	</figure>
 	<p>Мягкая, нетерпкая смесь различных сортов кофе из
 	Мексики, Боливии и Гватемалы.</p>
 	<h3>Кофе мокко, $2,35</h3>
-	<img src="images/mokko.jpg">	
+	<figure>
+		<img src="../images/mokko.jpg">	
+	</figure>
 	<p>Эспрессо, кипяченое молоко и шоколадный сироп.</p>
 	<h3>Капучино, $1,89</h3>
-	<img src="images/cappuccino.jpg">
+	<figure>
+		<img src="../images/cappuccino.jpg">	
+	</figure>
 	<p>Смесь эспрессо и кипяченого молока с добавлением пены</p>
 	<h3>Чай, $1,85</h3>
-	<img src="images/tea.jpg">
+	<figure>
+		<img src="../images/tea.jpg">	
+	</figure>
 	<p>Ароматный напиток из черного чая, специй, молока
 	и меда.</p>
 </body>
